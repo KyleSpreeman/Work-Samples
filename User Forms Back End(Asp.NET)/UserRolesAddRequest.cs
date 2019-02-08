@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Eleveight.Models.Domain
+namespace Models.Domain
 {
     public class UserRolesAddRequest
     {
