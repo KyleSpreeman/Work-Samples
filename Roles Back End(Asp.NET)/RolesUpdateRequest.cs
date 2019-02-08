@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace Eleveight.Models.Requests
+namespace Models.Requests
 {
     public class RolesUpdateRequest : RolesAddRequest
     {
