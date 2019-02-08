@@ -59,15 +59,6 @@ class LogServices {
             .then(onSuccess)
             .catch(onError)
     }
-
-    // static paginatedSearch(data, onSuccess, onError) {
-    //     axios.get(`/api/logging?searchTerm=${data.searchTerm}&startDate=${data.startDate}&endDate=${data.endDate}&levelSearch=${data.levelSearch}&pageNumber=${data.pageNumber}&pageSize=${data.pageSize}&sortBy=${data.sortBy}&sortOrder=${data.sortOrder}`,
-    //         // data,
-    //         { withCredentials: true }
-    //     )
-    //         .then(onSuccess)
-    //         .catch(onError)
-    // }
 }
 
 export default LogServices
