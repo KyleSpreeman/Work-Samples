@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Eleveight.Models.Requests
+namespace Models.Requests
 {
     public class LoggingAddRequest
     {
