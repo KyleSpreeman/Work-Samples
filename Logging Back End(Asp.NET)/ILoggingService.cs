@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
-using Eleveight.Models.Domain;
-using Eleveight.Models.Requests;
-using Eleveight.Models.ViewModels;
+using Models.Domain;
+using Models.Requests;
+using Models.ViewModels;
 
-namespace Eleveight.Services.Interfaces
+namespace Services.Interfaces
 {
     public interface ILoggingService
     {
