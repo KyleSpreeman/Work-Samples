@@ -1,9 +1,9 @@
-﻿using Eleveight.Data;
-using Eleveight.Data.Providers;
-using Eleveight.Models;
-using Eleveight.Models.Domain;
-using Eleveight.Models.Requests;
-using Eleveight.Services.Interfaces;
+﻿using Data;
+using Data.Providers;
+using Models;
+using Models.Domain;
+using Models.Requests;
+using Services.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Configuration;
@@ -13,7 +13,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Eleveight.Services.Form
+namespace Services.Form
 {
     public class FormDataService : IFormDataService
     {
