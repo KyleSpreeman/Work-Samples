@@ -2,16 +2,15 @@
 using System.Data;
 using System.Data.SqlClient;
 using System.Collections.Generic;
-
-using Eleveight.Data;
-using Eleveight.Data.Providers;
-using Eleveight.Models.Requests;
-using Eleveight.Services.Interfaces;
-using Eleveight.Models.Domain;
+using Data;
+using Data.Providers;
+using Models.Requests;
+using Services.Interfaces;
+using Models.Domain;
 using System.Configuration;
-using Eleveight.Models;
+using Models;
 
-namespace Eleveight.Services
+namespace Services
 {
     public class FormService : IFormService
     {
