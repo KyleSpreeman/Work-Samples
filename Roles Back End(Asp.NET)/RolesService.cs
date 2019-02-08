@@ -1,7 +1,7 @@
-﻿using Eleveight.Data;
-using Eleveight.Data.Providers;
-using Eleveight.Models.Domain;
-using Eleveight.Models.Requests;
+﻿using Data;
+using Data.Providers;
+using Models.Domain;
+using Models.Requests;
 using System;
 using System.Collections.Generic;
 using System.Data;
@@ -10,7 +10,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Eleveight.Services.roles
+namespace Services.roles
 {
     public class RolesService : IRolesService
     {
