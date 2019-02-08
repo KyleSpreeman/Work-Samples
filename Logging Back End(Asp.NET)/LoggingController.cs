@@ -1,8 +1,8 @@
-﻿using Eleveight.Models.Domain;
-using Eleveight.Models.Requests;
-using Eleveight.Models.Responses;
-using Eleveight.Models.ViewModels;
-using Eleveight.Services.Interfaces;
+﻿using Models.Domain;
+using Models.Requests;
+using Models.Responses;
+using Models.ViewModels;
+using Services.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,7 +11,7 @@ using System.Net.Http;
 using System.Web.Http;
 
 
-namespace Eleveight.Web.Controllers.Api
+namespace Web.Controllers.Api
 {
     [AllowAnonymous]
     [RoutePrefix("api/logging")]
@@ -31,9 +31,6 @@ namespace Eleveight.Web.Controllers.Api
                 resp.Item = _loggingService.Create(model);
                 log.Info("Create successful");
                 return Request.CreateResponse(HttpStatusCode.OK, resp);
-                // } else {
-                // return Request.CreateErrorResponse(HttpStatusCode.BadRequest, ModelState);
-                // }
             }
             catch (Exception ex)
             {
