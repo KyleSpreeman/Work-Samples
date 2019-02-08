@@ -1,12 +1,12 @@
-﻿using Eleveight.Models.Domain;
-using Eleveight.Models.Requests;
+﻿using Models.Domain;
+using Models.Requests;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Eleveight.Services.Interfaces
+namespace Services.Interfaces
 {
     public interface IFormDataService
     {
