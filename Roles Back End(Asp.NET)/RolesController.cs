@@ -1,8 +1,8 @@
-﻿using Eleveight.Models.Domain;
-using Eleveight.Models.Requests;
-using Eleveight.Models.Responses;
-using Eleveight.Services;
-using Eleveight.Services.roles;
+﻿using Models.Domain;
+using Models.Requests;
+using Models.Responses;
+using Services;
+using Services.roles;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,7 +10,7 @@ using System.Net;
 using System.Net.Http;
 using System.Web.Http;
 
-namespace Eleveight.Web.Controllers.Api
+namespace Web.Controllers.Api
 {
     [AllowAnonymous]
     [RoutePrefix("api/roles")]
