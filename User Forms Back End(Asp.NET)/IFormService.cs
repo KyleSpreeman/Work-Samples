@@ -1,8 +1,8 @@
-﻿using Eleveight.Models.Domain;
-using Eleveight.Models.Requests;
+﻿using Models.Domain;
+using Models.Requests;
 using System.Collections.Generic;
 
-namespace Eleveight.Services
+namespace Services
 {
     public interface IFormService
     {
